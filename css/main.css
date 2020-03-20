@@ -121,7 +121,8 @@
 .aboutUs_txt_Discover{
     font-size: 24px;
 }
-.aboutUs_txt h2, .events h1{
+.aboutUs_txt h2, .events h1, .galery h1, .say-about h1, .about-us h1,
+.our_chef h2{
     font-size: 56px;
 }
 .aboutUs_txt_pTwo{
@@ -211,7 +212,81 @@
     color: #333333;
 }
 
+.galery{
+    width: 100%;
+    height: 880px;
+    background-color: #fcf4f4;
+}
 
+.galery p{
+    padding-top: 100px;
+}
+
+.m-img{
+    margin-top: 30px;
+}
+
+.say-about{
+    width: 100%;
+    height: 880px;
+    background-color: #fcf4f4;
+}
+.say-about_divOne{
+    width: 100%;
+    height: 368px;
+    background-color: #333333;
+    top: 320px;
+}
+.say-about_divTwo{
+    left: 8%;
+    width: 1170px;
+    height: 545px;
+    background: white;
+    z-index: 3;
+}
+.say-about_pOne{
+    padding-top: 71px;
+}
+.say-about_divTwo p{
+    width: 780px;
+    color: #333333;
+    font-weight: 100;
+}
+.say-about_photo{
+    margin-top:65px;
+}
+.say-about_points{
+    right: 329px;
+    top: 10px;
+}
+
+.about-us{
+    width: 100%;
+    height: 880px;
+    background-color: #333333;
+}
+.article{
+    max-width: 360px;
+    height: 464px;
+    background: white;
+}
+.about-us_pOne{
+    padding-top: 71px;
+}
+.about-us_divRow{
+    margin-top: 54px;
+}
+.about-us_divRow img{
+    margin-top: 56px;
+}
+.about-us_divRow p, .about-us_divRow h3{
+    width: 276px;
+}
+.our_chef{
+    width: 100%;
+    height: 880px;
+    background-color: #fcf4f4;
+}
 
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -224,7 +299,7 @@
     .btn_main_purple{
         margin-right: 5px;
     }
-    .row_main{
+    .row_main, .row_events, .about-us_divRow_mobile{
         display: none;
     }
     .main_rowOne{
@@ -279,6 +354,69 @@
         height: 1008px;
         background-color: #343434;
     }
+    .events_div{
+        height: 736px;
+    }
+    .events h1, .galery h1 .about-us h1{
+        font-size: 40px;
+    }
+    .events_pOne, .galery p{
+        padding-top: 71px;
+    }
+    .upcoming{
+        margin-left: 30px;
+        max-width: 300px;
+    }
+    .galery{
+        height: 1792px;
+    }
+    .galery img{
+        max-width: 100%;
+    }
+    .m-mobile{
+        margin-top: 17px;
+    }
+
+    .say-about_pOne{
+        padding-top: 39px;
+    }
+
+    .say-about h1{
+        font-size: 52px;
+    }
+    .say-about_divOne{
+        width: 100%;
+        height: 496px;
+        background-color: #333333;
+        top: 380px;
+    }
+    .say-about_divTwo{
+        margin-right: 1%;
+        width: 322px;
+        height: 737px;
+        background: white;
+        z-index: 3;
+    }
+
+    .say-about_divTwo p{
+        width: 90%;
+        color: #333333;
+        font-weight: 100;
+    }
+    .say-about_points{
+        right: 15px;
+    }
+    .about-us{
+        height: 736px;
+        margin-top: 156px;
+    }
+    .about-us_divRow_times{
+        margin-left: 8px;
+    }
+    .about-us_pOne{
+        padding-top: 39px;
+    }
+
     
  }
 
