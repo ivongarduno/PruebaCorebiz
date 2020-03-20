@@ -2,7 +2,7 @@
 
 REST es un restaurante inspirado en la mezcla y toques de sabores, texturas y colores ubicados en el hall de entrada al Hotel y Centro de Eventos Malibu en la ciudad de México. Animado con una brisa fresca en el centro de una arquitectura moderna, con una gran guaca de sabores. Nuestro menú es una experiencia ecléctica de la mejor cocina internacional con un toque de estilo mediterráneo.
 
-![](img/platilloMain.png)
+![](img/galeryTwo.png)
 
 ### Comenzando :rocket:
 
