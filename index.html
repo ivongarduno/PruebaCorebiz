@@ -30,19 +30,19 @@
             <div class="collapse navbar-collapse roboto" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link text-white menu" href="#">About Us</a>
+                  <a class="nav-link text-white menu" href="#aboutUs">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white menu" href="#">Menu</a>
+                  <a class="nav-link text-white menu" href="#menu">Menu</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white menu" href="#">Events</a>
+                  <a class="nav-link text-white menu" href="#events">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white menu" href="#">News</a>
+                    <a class="nav-link text-white menu" href="#news">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white menu" href="#">Contact</a>
+                    <a class="nav-link text-white menu" href="#contact">Contact</a>
                 </li>     
               </ul>
               <ul class="navbar-nav ml-auto">
@@ -82,7 +82,8 @@
             </div>
         </div>
     </section>
-    <section class="aboutUs">
+    <!-- ABOUT US -->
+    <section class="aboutUs" id="aboutUs">
         <div class="container">
           <div class="row">
               <div class="col-12 col-lg-6">
@@ -97,7 +98,9 @@
           </div>
         </div>
     </section>
-    <section class="section-menu">
+
+    <!-- MENU -->
+    <section class="section-menu" id="menu">
       <div class="float-right section-menu_div-with">
         <div class="row" style="margin-right: 0px;">
           <div class="col-12 col-lg-6 section-menu_div-with_menu">
@@ -213,7 +216,9 @@
         </div>
       </div>
     </section>
-    <section class="events">
+
+    <!-- EVENTS -->
+    <section class="events" id="events">
       <div class="container">
         <p class="roboto font-twentyfour text-white text-center events_pOne">Party with us!</p>
         <h1 class="ptSerif font-weight-bold text-center text-white">Upcoming Events</h1>
@@ -241,7 +246,9 @@
         </div>
       </div>
     </section>
-    <section class="galery">
+
+    <!-- GALERY -->
+    <section class="galery" id="news">
       <div class="container">
         <p class="text-center roboto font-twentyfour">Gallery</p>
         <h1 class="text-center font-weight-bold ptSerif">Our Interior</h1>
@@ -327,22 +334,116 @@
         </div>
       </div>
     </section>
-    <section class="our_chef">
+    <section class="our-chef">
       <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6 mx-auto d-block">
+            <div class="col-12 col-lg-6 our-chef_div-img">
                 <img class="img-fluid" src="./img/chef.png" alt="">
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 our-chef_div-text">
                 <p class="roboto font-weight-light">The word from</p>
                 <h2 class="ptSerif font-weight-bold">Our History</h2>
-                <p class="roboto font-weight-light">A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good.</p>
+                <p class="roboto font-weight-light our-chef_div-text_phistory">A peep at some distant orb has power to raise and purify 
+                  our thoughts like a strain of sacred music, or a noble picture, or a passage from the 
+                  grander poets. It always does one good.</p>
                 <h4 class="ptSerif font-twentyfour font-weight-bold">Slavcho Karbashewski</h4>
                 <p class="roboto font-twenty">Head Chef</p>
             </div>
         </div>
       </div>
+    </section>
+
+  <!-- CONTACT -->
+  <section class="form" id="contact">
+      <div class="position-absolute form_div-abs">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12 container-form">
+              <p class="roboto font-twentyfour">Reserve</p>
+              <h1 class="ptSerif font-weight-bold">A Table</h1>
+              <form>
+                <div class="form-group mt-4">
+                  <label for="" class="roboto font-weight-bold">DATE</label>
+                  <input type="text" class="form-control" id="" placeholder="9/26/2019">
+                  
+                </div>
+                <div class="form-group mt-4">
+                  <label for="" class="roboto font-weight-bold">TIME</label>
+                  <select class="custom-select">
+                    <option selected>7:00 pm</option>
+                  </select>
+                </div>
+                <div class="form-group mt-4">
+                  <label for="" class="roboto font-weight-bold">GUESTS</label>
+                  <select class="custom-select">
+                    <option selected>2 people</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn_main_purple mt-5">Find a table</button>
+              </form>
+            </div>
+            <div class="col-lg-6 col-12">
+              <img src="./img/fondoMain.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-absolute form_div-abs"></div>
   </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container text-center">
+      <h1 class="text-white ptSerif font-weight-bold logo" href="#">REST</h1>
+      <ul class="list-inline nav-desktop">
+        <li class="list-inline-item">
+          <a class="nav-link text-white menu" href="#">About Us</a>
+        </li>
+        <li class="list-inline-item">
+          <a class="nav-link text-white menu" href="#">Menu</a>
+        </li>
+        <li class="list-inline-item">
+          <a class="nav-link text-white menu" href="#">Events</a>
+        </li>
+        <li class="list-inline-item">
+            <a class="nav-link text-white menu" href="#">News</a>
+        </li>
+        <li class="list-inline-item">
+            <a class="nav-link text-white menu" href="#">Contact</a>
+        </li>     
+      </ul>
+      <ul class="navbar-nav ml-auto nav-mobile">
+        <li class="nav-item">
+          <a class="nav-link text-white menu" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white menu" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white menu" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white menu" href="#">News</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white menu" href="#">Contact</a>
+        </li>     
+      </ul>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a class="nav-link text-white" href="#"><i class="fab fa-facebook-f redes"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a class="nav-link text-white" href="#"><i class="fab fa-twitter redes"></i></a>
+        </li>
+        <li class="list-inline-item">
+            <a class="nav-link text-white" href="#"><i class="fab fa-instagram redes"></i></a>
+        </li>
+      </ul>
+      
+      <p class="font-twenty roboto">2019 Restaurant. All Rights Reserved.</p>
+    </div>
+  </footer>
     
     <!--BOOTSTRAP jQuery-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
